@@ -1,0 +1,192 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+.navbar .navbar-brand h3 {
+  font-weight: 100;
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+}
+.navbar .nav-link:hover {
+  transition: border 0.2s;
+  border-bottom: 1px solid white;
+}
+
+#showcase {
+  background: url("../images/main.jpeg") bottom center/cover no-repeat;
+  min-height: 750px;
+  position: relative;
+}
+#showcase #header {
+  z-index: 2;
+}
+#showcase #overlay {
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#showcase h1 {
+  font-family: "Questrial", sans-serif;
+  line-height: 1;
+  color: #1f1f1f;
+  font-weight: 900;
+}
+#showcase h5 {
+  color: #1f1f1f;
+  font-weight: 600;
+}
+#showcase p {
+  color: #1f1f1f;
+  font-weight: 300;
+}
+#showcase #book {
+  font-size: 1.5rem;
+}
+
+#pitch h1 {
+  font-size: 3rem;
+  line-height: 1.25;
+}
+#pitch h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-right: 110px;
+}
+#pitch p {
+  line-height: 1.75;
+  font-size: 1rem;
+  padding-right: 110px;
+}
+#pitch img {
+  padding-top: 25px;
+}
+#pitch button {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#help .bullets {
+  padding-top: 170px;
+}
+#help h1 {
+  font-size: 3rem;
+  line-height: 1.25;
+}
+#help h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+#help p {
+  line-height: 1.75;
+  font-size: 1rem;
+}
+#help img {
+  padding-top: 25px;
+}
+#help button {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.quotes #quoteLeft {
+  font-size: 40px;
+}
+.quotes #quoteRight {
+  font-size: 40px;
+}
+.quotes .blockquote {
+  color: #ffffff;
+}
+.quotes .blockquote-footer {
+  color: #ffffff;
+}
+
+#virtual i {
+  font-size: 35px;
+  color: #159ab7;
+  padding: 15px 0px;
+}
+#virtual .icon-card {
+  background-color: whitesmoke;
+}
+#virtual h1 {
+  font-size: 3rem;
+  line-height: 1.25;
+}
+#virtual h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+#virtual p {
+  line-height: 1.75;
+  font-size: 1rem;
+}
+#virtual button {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#lastPitch {
+  background-color: #39bbdf;
+}
+#lastPitch h1 {
+  font-size: 3rem;
+  line-height: 1.25;
+  color: #ffffff;
+}
+#lastPitch h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+#lastPitch h6 {
+  color: #ffffff;
+}
+#lastPitch p {
+  line-height: 1.75;
+  font-size: 1rem;
+}
+#lastPitch button {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#footer {
+  font-weight: 100;
+  color: #ffffff;
+}
+#footer i {
+  padding: 0px 20px;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: none;
+  }
+
+  #showcase {
+    min-height: 500px;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
